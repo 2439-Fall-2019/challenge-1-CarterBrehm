@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Reservations</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="/~crbrehm/sage/_css/brehm_challenge1.css">
+</head>
+
+<body>
+    <!--    
+        Carter Brehm
+        reservations.html
+        INFO2439.PLA
+        Thoendel
+        10/9/13
+    -->
+    <div data-role="page" data-title="Reservations" id="homePage">
+        <!--Begin Page-->
+        <header data-role="header" data-add-back-btn="true" data-position="fixed">
+            <!--Begin Header-->
+            <h1>Reservations</h1>
+        </header>
+        <!--End Header-->
+        <div data-role="content">
+            <!--Begin Content-->
+            <h2>OpenTable Reservations</h2>
+            <p id="reservationtext">Reservations are highly-recommended for dinner, Monday through Thursday, with available seating times from 6-8 p.m. Call us at <a href="tel:5316222328">(531) MCC-2328</a> to make reservations, or click here to make reservations through OpenTable.com.
+                We also request that you call <a href="tel:5316222328">(531) MCC-2328</a> to make lunch reservations for parties of six or more. Lunch reservations are not required nor accepted for parties smaller than six.</p>
+            <iframe id="opentable" frameborder="0" height="380" scrolling="no" src="//www.opentable.com/widget/reservation/canvas?rid=52120&amp;domain=com&amp;type=standard&amp;theme=standard&amp;lang=en&amp;overlay=false&amp;insideiframe=true" style="margin-bottom: 0px;"
+                title="OpenTable registration for Sage Student Bistro"></iframe>
+        </div>
+        <!--End Content-->
+        <footer style="text-align: center;" data-role="footer" data-position="fixed">MCC Sage Bistro</footer>
+        <!--Footer-->
+    </div>
+    <!--End Page-->
+</body>
+
+</html>

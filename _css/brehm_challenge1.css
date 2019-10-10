@@ -1,0 +1,22 @@
+/*  Carter Brehm
+	brehm_challenge1.css
+	INFO2439.PLA
+	Thoendel
+	10/9/19
+*/
+
+@import url("/~crbrehm/sage/_css/theme.css");
+iframe {
+    display: table;
+    margin: 0 auto;
+    width: 100%;
+}
+
+label,
+legend,
+footer,
+#wine,
+#reservationtext {
+    color: #FFFFFF;
+    text-shadow: none;
+}
