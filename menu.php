@@ -117,6 +117,7 @@
         <!--Begin Page-->
         <header data-role="header" data-add-back-btn="true" data-position="fixed">
             <!--Begin Header-->
+            <a href="index.html" data-role="back" data-icon="carat-l">Back</a>
             <h1>Menu</h1>
         </header>
         <!--End Header-->
