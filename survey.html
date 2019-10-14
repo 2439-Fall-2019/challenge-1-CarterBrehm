@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Survey</title>
+    <meta charset="utf-8">
+    <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="/~crbrehm/sage/_css/brehm_challenge1.css">
+</head>
+
+<body>
+    <!--    
+        Carter Brehm
+        survey.html
+        INFO2439.PLA
+        Thoendel
+        10/9/13
+    -->
+    <div data-role="homePage" data-title="Survey">
+        <!--Begin Page-->
+        <header data-role="header" data-position="fixed" data-add-back-btn="true">
+            <!--Begin Header-->
+            <h1>Survey</h1>
+        </header>
+        <!--End Header-->
+        <div data-role="content">
+            <!--Begin Content-->
+            <form action="http://emthoendel.faculty.mccinfo.net/2439/bistrosurvey_insert.php" method="post">
+                <label for="meal">How would you rate your meal today?</label>
+                <select name="meal_rate" id="meal_rate">
+                        <option value="1">1 - Poor</option>
+                        <option value="2">2 - Needs Work</option>
+                        <option value="3">3 - Fair</option>
+                        <option value="4">4 - Good</option>
+                        <option value="5">5 - Excellent</option>
+                    </select>
+                <hr>
+                <label for="service">How would you rate your service today?</label>
+                <select name="service_rate" id="service_rate">
+                        <option value="1">1 - Poor</option>
+                        <option value="2">2 - Needs Work</option>
+                        <option value="3">3 - Fair</option>
+                        <option value="4">4 - Good</option>
+                        <option value="5">5 - Excellent</option>
+                    </select>
+                <hr>
+                <label for="experience">How would you rate your experience today?</label>
+                <select name="overall_exp" id="overall_exp">
+                        <option value="1">1 - Poor</option>
+                        <option value="2">2 - Needs Work</option>
+                        <option value="3">3 - Fair</option>
+                        <option value="4">4 - Good</option>
+                        <option value="5">5 - Excellent</option>
+                    </select>
+                <hr>
+                <fieldset data-role="controlgroup" data-type="horizontal" name="recommend_rest" id="recommend_rest">
+                    <legend>Would you recommend this restaurant to a friend?</legend>
+                    <label for="yes">Yes</label>
+                    <input id="yes" name="recommend_rest" type="checkbox" id="yes"></input>
+                    <label for="no">No</label>
+                    <input id="no" name="recommend_rest" type="checkbox" id="no"></input>
+                </fieldset>
+                <hr>
+                <label for="experience">Name:</label>
+                <input name="bname" type="text" id="name">
+                <hr>
+                <label for="email">Email:</label>
+                <input name="email" type="text" id="email">
+                <input type="submit" value="Send">
+            </form>
+        </div>
+        <!--End Content-->
+        <footer style="text-align: center;" data-role="footer" data-position="fixed">MCC Sage Bistro</footer>
+        <!--Footer-->
+    </div>
+    <!--End Page-->
+
+
+</body>
+
+</html>
