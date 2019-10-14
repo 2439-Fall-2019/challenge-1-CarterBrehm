@@ -6,7 +6,8 @@
 */
 
 @import url("/~crbrehm/sage/_css/theme.css");
-iframe {
+iframe,
+#logo {
     display: table;
     margin: 0 auto;
     width: 100%;
@@ -43,4 +44,9 @@ h5,
 h6 {
     color: white;
     text-shadow: none;
+}
+
+li p,
+li h3 {
+    color: black;
 }

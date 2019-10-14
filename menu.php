@@ -54,7 +54,7 @@
         "Special Entrees",
         array("Short Rib", "bordelaise | yukon potato puree | peas | cipollini onion | celery | beach mushrooms", "18"),
         array("Rabbit Ragout", "cavatelli | maitake mushroom | broccoli | cured yolk | parmesan | fresh tarragon" , "15"),
-        array("Duck Breast", "whole grain raisin mostarda | parsnip puree | heirloom carrot | trumpet mushrooms | cipollini onion | blackberry", "$19"),
+        array("Duck Breast", "whole grain raisin mostarda | parsnip puree | heirloom carrot | trumpet mushrooms | cipollini onion | blackberry", "19"),
         array("Salt Cured Salmon", "sweet corn cream | tart apple & celery root salad | quinoa | onion | picled chilies | poppy | cilantro", "17")
     );
     $special = array($starters, $special_entrees);
